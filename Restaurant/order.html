@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restik.ru</title>
+    <link href="assets/css/order.css" rel="stylesheet">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="index.html" class="nav__logo">Ресто Пицца</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link active-link">Главная</a></li>
+                    <li class="nav__item"><a href="index.html" class="nav__link">О Нас</a></li>
+                    <li class="nav__item"><a href="index.html" class="nav__link">Сервис</a></li>
+                    <li class="nav__item"><a href="index.html" class="nav__link">Меню</a></li>
+                    <li class="nav__item"><a href="index.html" class="nav__link">App</a></li>
+                    <li class="nav__item"><a href="index.html" class="nav__link">Контакты</a></li>
+
+                    <li><i id="theme-button"></i></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <form action="" class="ui-form">
+        <h3>Заполните форму</h3>
+        <div class="form-row">
+            <input type="text" id="name" required autocomplete="off"><label for="name">Имя</label>
+        </div>
+        <div class="form-row">
+            <input type="text" id="surname" required autocomplete="off"><label for="surname">Фамилия</label>
+        </div>
+        <div class="form-row">
+            <input type="text" id="email" required autocomplete="off"><label for="email">Email</label>
+        </div>
+        <div class="form-row">
+            <input type="phone" id="phone" required autocomplete="off"><label for="phone">Телефон</label>
+        </div>
+        <div class="form-row">
+            <input type="address" id="address" required autocomplete="off"><label for="address">Адрес</label>
+        </div>
+        <a href="index.html" class="button">Заказать</a>
+    </form>
+</body>
